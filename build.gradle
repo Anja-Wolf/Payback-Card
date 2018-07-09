@@ -1,0 +1,64 @@
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'application'
+
+compileJava {
+    options.encoding = "UTF-8"
+}
+
+run {
+  if(System.getProperty("exec.args") != null) {
+    args System.getProperty("exec.args").split()
+  }
+  standardInput = System.in
+}
+
+apply plugin: 'checkstyle'
+
+checkstyle {
+    toolVersion "8.4"
+}
+
+apply plugin: "jacoco"
+
+jacoco {
+    toolVersion = "0.7.9"
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true
+        csv.enabled = false
+        html.enabled = true
+    }
+}
+
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "com.adarshr:gradle-test-logger-plugin:1.0.1"
+  }
+}
+
+apply plugin: "com.adarshr.test-logger"
+
+testlogger {
+    theme 'standard'
+    showExceptions true
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:22.0'
+    testCompile 'junit:junit:4.12'
+}
+
+mainClassName = 'PaybackCardApp'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PaybackCardsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-04-26T06:57:26" hostname="dhcp-10-179-0-195.dynamic.eduroam.mwn.de" time="0.016">
+  <properties/>
+  <testcase name="removeAfterMerge" classname="PaybackCardsTest" time="0.003"/>
+  <testcase name="findByCustomerId1" classname="PaybackCardsTest" time="0.0"/>
+  <testcase name="findByCustomerId2" classname="PaybackCardsTest" time="0.001"/>
+  <testcase name="findByCustomerId3" classname="PaybackCardsTest" time="0.0"/>
+  <testcase name="findByCustomerId4" classname="PaybackCardsTest" time="0.0"/>
+  <testcase name="removeNothing" classname="PaybackCardsTest" time="0.003"/>
+  <testcase name="remove50" classname="PaybackCardsTest" time="0.004"/>
+  <testcase name="addAndFind100" classname="PaybackCardsTest" time="0.002"/>
+  <testcase name="addPaybackCards11" classname="PaybackCardsTest" time="0.0"/>
+  <testcase name="addPaybackCards12" classname="PaybackCardsTest" time="0.0"/>
+  <testcase name="addPaybackCards13" classname="PaybackCardsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

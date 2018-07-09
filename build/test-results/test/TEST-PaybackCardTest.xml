@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PaybackCardTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2018-04-26T06:57:26" hostname="dhcp-10-179-0-195.dynamic.eduroam.mwn.de" time="0.017">
+  <properties/>
+  <testcase name="setPremiumCustomer1" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="setPremiumCustomer2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="merge2and3" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="merge3and4" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="mergeDifferent" classname="PaybackCardTest" time="0.002"/>
+  <testcase name="newPaybackCardId1" classname="PaybackCardTest" time="0.001"/>
+  <testcase name="newPaybackCardId2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardValid1" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardValid2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardName1" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardName2" classname="PaybackCardTest" time="0.001"/>
+  <testcase name="merge3and4AndCannotAddPointsto4" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardBonuspoints1" classname="PaybackCardTest" time="0.001"/>
+  <testcase name="newPaybackCardBonuspoints2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="addBonuspoints1" classname="PaybackCardTest" time="0.001"/>
+  <testcase name="addBonuspoints2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="addBonuspoints3" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardPremiumCustomer1" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="newPaybackCardPremiumCustomer2" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="mergeSame" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="toStringCard1" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="toStringCard2" classname="PaybackCardTest" time="0.001"/>
+  <testcase name="toStringCard3" classname="PaybackCardTest" time="0.0"/>
+  <testcase name="toStringCard4" classname="PaybackCardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
